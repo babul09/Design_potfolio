@@ -30,7 +30,7 @@
       <div class="hero-copy">
         <div class="eyebrow"><span class="live-dot"></span> SOFTWARE × AI × CREATIVE TOOLS</div>
         <h1>I build practical systems for <em>creative work.</em></h1>
-        <p class="hero-sub">I’m an engineering student exploring the space between software engineering, AI, and creative tools. I identify workflow friction, build focused prototypes, and test whether they help.</p>
+        <p class="hero-sub">I explore the space between software engineering, AI, and creative tools. I identify workflow friction, build focused prototypes, and test whether they help.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#work">Explore selected work <span>↓</span></a>
           <a class="button button-quiet" href="#about">A little about me <span>↗</span></a>
@@ -104,7 +104,7 @@
         </div>
       </article>
 
-      <div class="project-grid">
+      <div class="project-grid project-grid-single">
         <article class="project-card">
           <div class="card-visual visual-sketch">
             <div class="mini-top"><span>FORMA / CONCEPT WORKSPACE</span><span>AI ASSISTED</span></div>
@@ -126,26 +126,9 @@
           <div class="card-content">
             <div class="project-number">02 <span>/ IMPLEMENTED PROTOTYPE</span></div>
             <h3>Forma <span class="subheading">/ Sketch-to-Concept</span></h3>
-            <p>A product concept workspace connecting a written brief, optional reference sketch, editable prompt, visual directions, and a curated concept sheet. Projects autosave in the current browser.</p>
-            <div class="tag-list"><span>React</span><span>Vite</span><span>FastAPI</span><span>Gemini image generation</span></div>
+            <p>A product concept workspace connecting a written brief, optional reference sketch, editable prompt, and visual directions. It supports Gemini image generation with a labeled local SVG fallback, and autosaves projects in the current browser.</p>
+            <div class="tag-list"><span>React</span><span>Vite</span><span>FastAPI</span><span>Gemini API</span><span>Local SVG fallback</span></div>
             <a class="text-link" href="https://github.com/babul09/prodview" target="_blank" rel="noreferrer">Source code <span>↗</span></a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="card-visual visual-checklist">
-            <div class="mini-top"><span>PROJECT / 003</span><span>COMING SOON</span></div>
-            <div class="review-window">
-              <div class="window-head"><span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span><span class="window-title">project_03.txt</span></div>
-              <div class="review-quote">A new project will be shared here soon.</div>
-              <div class="extract-line"><span>PROJECT DETAILS</span><span>COMING SOON</span></div>
-            </div>
-            <div class="mini-bottom"><span>UNSTRUCTURED → ACTIONABLE</span><span>03</span></div>
-          </div>
-          <div class="card-content">
-            <div class="project-number">03 <span>/ PLACEHOLDER</span></div>
-            <h3>Project coming soon</h3>
-            <p>This space is reserved for a future project. Details will be added when the work is ready to share.</p>
           </div>
         </article>
       </div>
@@ -181,18 +164,14 @@
           <summary><span>02</span> Sketch-to-Concept <b>＋</b></summary>
           <div class="details-body"><p>Forma combines a written brief, optional reference sketch, editable prompt, generated visual directions, and a curated concept sheet in one workspace. It uses React with Vite for the frontend and a FastAPI backend.</p><p><strong>Generation:</strong> Google Gemini image generation is available through the Interactions API and requires a configured GEMINI_API_KEY. If local fallback is selected, or Gemini is unavailable or errors, the app creates a labeled local SVG study. Each concept records its source.</p><p><strong>Persistence and limits:</strong> Projects, briefs, prompts, references, concepts, and notes autosave in the current browser. There is no account sync or server side project storage. Image generation depends on provider availability and prompt quality; the local fallback is an SVG study, not an AI generated image.</p><p><strong>Evaluation:</strong> A repeatable plan checks adherence to constraints, diversity, regeneration and correction frequency, and iteration clarity. Results have not yet been reported. <strong>Evidence:</strong> <a href="https://github.com/babul09/prodview" target="_blank" rel="noreferrer">Repository</a>.</p></div>
         </details>
-        <details>
-          <summary><span>03</span> Project coming soon <b>＋</b></summary>
-          <div class="details-body"><p>This project slot is intentionally left as a placeholder. Details will be added when a third project is ready to share.</p></div>
-        </details>
       </div>
     </section>
 
     <section class="about-section section-pad" id="about">
       <div class="wrap about-layout">
-        <div><p class="eyebrow">04 / ABOUT</p><h2>Engineering mindset.<br><em>Creative curiosity.</em></h2></div>
+        <div><p class="eyebrow">04 / ABOUT</p><h2>Practical systems.<br><em>Creative curiosity.</em></h2></div>
         <div class="about-copy">
-          <p>I’m an engineering student interested in practical AI applications and creative software. I build systems that connect interfaces, simulation logic, and model capabilities into usable workflows. My work includes Motion DNA, a browser based procedural animation lab, and Forma, an AI assisted workspace for visual product concepts.</p>
+          <p>I’m interested in practical AI applications and creative software. I build systems that connect interfaces, simulation logic, and model capabilities into usable workflows. My work includes Motion DNA, a browser based procedural animation lab, and Forma, an AI assisted workspace for visual product concepts.</p>
           <p>I focus on making tools understandable, keeping outputs editable, and documenting limitations instead of overstating results.</p>
           <div class="skills-list"><span>Go</span><span>Python</span><span>JavaScript</span><span>SQL</span><span>React</span><span>Vite</span><span>HTML · CSS</span><span>FastAPI</span><span>REST APIs</span><span>Gemini API</span><span>WebAssembly</span><span>Git · GitHub</span></div>
         </div>
